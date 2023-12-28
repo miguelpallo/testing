@@ -1,4 +1,4 @@
-source_currency,target_currency,rate,date
+source_currency,target_currency,amount,date
 USD,EUR,0.85,2023-01-01
 EUR,GBP,0.88,2023-01-01
 USD,GBP,0.75,2023-01-01

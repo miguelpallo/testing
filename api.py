@@ -39,7 +39,8 @@ def convert_currency():
             converted_amount = amount * nearest_rate
         else:
             return jsonify({'error': 'No se encontraron tasas de cambio para la conversión'}), 400
-
+    #only 4 decimals
+    converted_amount = round(converted_amount, 4)
     return jsonify({'converted_amount': converted_amount})
 
 
