@@ -1,4 +1,4 @@
-Standard Test Cases:
+# Standard Test Cases:
 Happy Path:
 
 Test retrieving the exchange rate for a valid source and target currency pair with a known exchange rate on a specific date.
