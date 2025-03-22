@@ -1,0 +1,13 @@
+Conclusiones:
+
+1. En el ejercicio E2E (front end), se validaron todas las funcionalidades claves del proceso de compra, desde la autenticación hasta la confirmación de compra. 
+   El flujo de prueba es confiable y funciona correctamente en el contexto de la automatización con Selenium. Sin embargo es importante considerar la establidad de la aplicación en escenarios de alto tráfico.
+
+2. En el ejercicio API (back end), las pruebas de los métodos de la API funcionaron según lo esperado, con respuestas HTTP 200 para las operaciones correctas y códigos de error apropiados para las operaciones fallidas. 
+   Esto asegura que la API responde adecuadamente a las solicitudes de los usuarios.
+
+3. Si bien estos son casos básicos, que pudieron ser con postman, se recomienda expandir las pruebas para cubrir más escenarios, como la validación de campos adicionales en los formularios y pruebas de errores más detalladas.
+
+4. Para el testing de APIs, se recomienda también utilizar herramientas como JMeter para simular cargas más altas y asegurar que el sistema pueda manejar múltiples solicitudes simultáneas sin fallos.
+
+5. Es importante integrar estas pruebas en un entorno de integración continua (CI) para asegurar que las funcionalidades se mantengan estables a lo largo del tiempo.

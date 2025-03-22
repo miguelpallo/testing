@@ -1,4 +1,5 @@
 import requests
+import time
 
 """
 Prueba APIS
@@ -14,8 +15,7 @@ Actualizar el nombre y el correo del usuario
 Buscar el usuario actualizado
 Eliminar el usuario
 """
-import requests
-import time
+
 
 #---------------
 # URL base de la API
